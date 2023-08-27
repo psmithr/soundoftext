@@ -2,7 +2,7 @@
 Sound of Text
 ==================
 
-Sound of Text is a versatile feature that enables users to convert written text into audible sound, making it a useful tool for various applications such as ringtones, alerts, and notifications. On the iPhone, there are several methods to achieve this. In this introduction, we will delve into how to harness the power of Sound of Text for personalizing your iPhone experience.
+`Sound of Text wa <https://www.voiceoftext.com/p/sound-of-text-wa.html>`_ is a versatile feature that enables users to convert written text into audible sound, making it a useful tool for various applications such as ringtones, alerts, and notifications. On the iPhone, there are several methods to achieve this. In this introduction, we will delve into how to harness the power of Sound of Text for personalizing your iPhone experience.
 
 Methods to Create Text Sound Ringtone
 ======================================
@@ -15,7 +15,7 @@ There are principally two methods to generate a text sound ringtone on the iPhon
 Botika Online: A Deeper Dive
 ----------------------------
 
-Botika Online is a remarkable website that offers more than just a female voice. It provides the choice between a young woman's voice and an older woman's voice. With a few simple steps, you can have a text-based ringtone ready for your iPhone:
+`Botika Online <https://botika.readthedocs.io/en/latest/>`_ is a remarkable website that offers more than just a female voice. It provides the choice between a young woman's voice and an older woman's voice. With a few simple steps, you can have a text-based ringtone ready for your iPhone:
 
 1. Visit the Botika Online website.
 2. Type in your desired text.
