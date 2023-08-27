@@ -1,36 +1,46 @@
-ROCm Documentation Core Utilities
-==================
+# Sound of Text
 
-Purpose
+There are two methods to create a text sound ringtone on an iPhone. The first is using the voice from Botika Text to speech, while the second is by using a personal voice recording. Below are the steps for each method:
 
-This repository is comprised of utilities, styling, scripts, and additional HTML content that is common to all ROCm projects' documentation. This greatly aids in maintaining the documentation, as any change to the appearance only needs to be modified in one location.
-Common elements covered
+## Cara Membuat Nada Dering Membacakan Nama Menggunakan Botika Online
 
-    Javascript tweaks for tables with long variable names, as Sphinx' default rendering is problematic.
-    HTML for a header and footer for the documentation page.
-    Common Sphinx configuration options for ROCm documentation processes.
+Apart from using the sound of text, you can also utilize the Botika Online website. Unlike the sound of text that only offers one female voice, at Botika Online, you can choose between a young woman's voice or an older woman's voice. The steps are as follows:
 
-Use
+1. Open the Botika Online website on your iPhone browser.
+2. Input the sentence “Hai Toni, ada panggilan masuk di WA”.
+3. Choose the voice type: young woman or older woman.
+4. Click download to save it on your device.
 
-    Install this repository as a Python package using pip, for example pip install git+https://github.com/RadeonOpenCompute/rocm-docs-core.git.
-    From the rocm_docs package import the function setup_rocm_docs into conf.py for the ReadTheDocs project.
-    Call exactly the following, replacing <PROJECT NAME HERE> with the name of the project.
+## Cara Buat Nada Dering Membacakan Nama Menggunakan Online Voice Recorder
 
-from rocm_docs import ROCmDocs
+Another alternative is to use the online voice recorder:
 
-docs_core = ROCmDocs(<PROJECT NAME HERE>)
-docs_core.run_doxygen()  # Only if Doxygen is required for this project
-docs_core.setup()
+1. Open the online-voice-recorder site on your iPhone browser.
+2. Click on the microphone icon to start recording.
+3. Click on the icon again to stop the recording.
+4. If you're satisfied, save the recording to your device.
+5. Listen to the recording playback.
 
-for sphinx_var in ROCmDocs.SPHINX_VARS:
-    globals()[sphinx_var] = getattr(docs_core, sphinx_var)
+## Cara Pasang Nada Dering Sound of Text iPhone di WA
 
-Documentation
+To set your newly created text sound ringtone on WhatsApp, follow these steps:
 
-The rocm-docs-core documentation is viewable at https://rocm.docs.amd.com/projects/rocm-docs-core/en/latest/
+1. Open the settings menu on your iPhone.
+2. Choose the Sound menu.
+3. Navigate to the Sound and Vibration Patterns menu.
+4. Select Ringtone.
+5. Click on the desired ringtone.
+6. A blue checkmark will appear next to the selected ringtone, indicating it's set.
 
-To build the rocm-docs-core documentation locally, run the commands below:
+## Cara Pasang Nada Dering Kustom di iPhone
 
-pip install -r requirements.txt
-cd docs
-python3 -m sphinx -T -E -b html -d _build/doctrees -D language=en . _build/html
+Set custom ringtones for specific contacts:
+
+1. Open the contacts menu on your iPhone.
+2. Select the desired contact.
+3. Click Edit.
+4. Choose the desired ringtone.
+5. Click Done.
+
+**Conclusion:**  
+Creating a text sound ringtone for your iPhone can make your phone more unique and refreshing. We hope this guide is helpful to you!
